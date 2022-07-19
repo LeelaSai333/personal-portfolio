@@ -1,5 +1,5 @@
 .Resume .heading h1 {
-    font-size: 40px;
+    font-size: 37px;
 }
 .Resume .content {
 max-width: 85%;
@@ -27,10 +27,22 @@ transition: 0.5s;
 margin-bottom: 40px;
 position: relative;
 }
-.Resume .btn_shadow:hover {
+.btn_shadow_1{
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow_1 {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+} 
+.Resume .btn_shadow_1:hover {
 transform: translate(0);
 }
-.Resume .box:hover .btn_shadow {
+.Resume .box:hover .btn_shadow_1 {
 background: #ff3a75;
 box-shadow: none;
 color: white;
@@ -96,7 +108,7 @@ box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 background: #ff014f;
 color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 .Resume .d_flex {
     flex-direction: column;
 }
@@ -104,4 +116,16 @@ color: white;
     top: 14%;
     height: 105vh;
 }
+}
+@media (max-width: 600px) {
+    .Resume .d_flex {
+        flex-direction: column;
+    }
+    .Resume .left::after {
+        top: 14%;
+        height: 105vh;
+    }
+    .btn_shadow_1{
+        margin-top: 11px;
+    }
 }

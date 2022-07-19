@@ -84,7 +84,7 @@ button {
   font-weight: 400;
 }
 .heading h1 {
-  font-size: 60px;
+  font-size: 37px;
   color: #3c3e41;
 }
 h1 {
@@ -122,9 +122,9 @@ footer p {
   margin-bottom: 10px;
 }
 /*----------Footer---------*/
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
   .left,
   .right {

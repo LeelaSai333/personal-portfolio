@@ -155,21 +155,21 @@ margin: 0;
 }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     .modal,
     .overlay {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
     
-    .modal .modal-img {
+    /* .modal .modal-img {
         margin: 50px 0 50px 0;
-    }
-    .modal-content {
+    } */
+    /* .modal-content {
         flex-direction: column;
     }
     .modal .right,
     .modal .left {
         padding: 0;
-    }
+    } */
 }
