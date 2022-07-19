@@ -1,5 +1,5 @@
 .Contact .left {
-    width: 36%;
+    width: 30%;
 }
 .Contact .right {
 width: 60%;
@@ -40,7 +40,7 @@ color: white;
 .Contact .right button i {
 margin-left: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 .Contact .d_flex {
     flex-direction: column;
 }
@@ -50,3 +50,14 @@ margin-left: 10px;
     margin-top: 50px;
 }
 }
+
+@media (max-width: 600px) {
+    .Contact .d_flex {
+        flex-direction: column;
+    }
+    .Contact .left,
+    .Contact .right {
+        width: 98%;
+        margin-top: 50px;
+    }
+    }

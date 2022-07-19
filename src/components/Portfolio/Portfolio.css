@@ -70,14 +70,17 @@ font-size: 18px;
 
 .modal,
 .overlay {
-width: 100vw;
-height: 100vh;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-position: fixed;
-z-index: 9999;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;    
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 9999;
 }
 
 .overlay {
@@ -133,10 +136,11 @@ font-size: 20px;
 margin: 0;
 }
 /*------------popup--------*/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 .modal,
 .overlay {
-    overflow: scroll;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
 }
 
 .modal .modal-img {
@@ -149,4 +153,23 @@ margin: 0;
 .modal .left {
     padding: 0;
 }
+}
+
+@media (max-width: 1024px) {
+    .modal,
+    .overlay {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .modal .modal-img {
+        margin: 50px 0 50px 0;
+    }
+    .modal-content {
+        flex-direction: column;
+    }
+    .modal .right,
+    .modal .left {
+        padding: 0;
+    }
 }

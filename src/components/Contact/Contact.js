@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import contact1 from "./contact1.png"
+// import contact1 from "./contact1.png"
 import "./Contact.css"
 import emailjs from 'emailjs-com';
 import { HiOutlineMail } from "react-icons/hi";
@@ -32,7 +32,7 @@ const Contact = () => {
             <div className='left'>
               <div className='box box_shodow'>
                 <div className='img'>
-                  <img src={contact1} alt='' />
+                  <img src='  ' alt='' />
                 </div>
                 <div className='details'>
                   <h1>Leela Sai Kumar</h1>
