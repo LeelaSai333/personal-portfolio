@@ -1,46 +1,45 @@
 const Portfolio_data = [
     {
       id: 1,
-      category: "DEVELOPMENT",
-      totalLike: "600",
+      image: "https://images.unsplash.com/photo-1566052356702-c255c7af3521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fDE2JTNBOXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
       title: "The services provide for design ",
-      image: "./image/portfolio-01.jpg",
-      link: "https://github.com/LeelaSai333/crackmovies"
+      github: "https://github.com",
+      demo: "https://github.com/LeelaSai333/crackmovies"
     },
     {
       id: 2,
-      category: "APPLICATION",
-      totalLike: "750",
+      image: "https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       title: "Mobile app landing design & maintain",
-      image: "./image/portfolio-02.jpg",
+      github: "https://github.com",
+      demo: "https://github.com/LeelaSai333/crackmovies"
     },
     {
       id: 3,
-      category: "PHOTOSHOP",
-      totalLike: "630",
+      image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       title: "Logo design creativity & Application ",
-      image: "./image/portfolio-03.jpg",
+      github: "https://github.com",
+      demo: "https://github.com/LeelaSai333/crackmovies"
     },
     {
       id: 4,
-      category: "FIGMA",
-      totalLike: "360",
+      image: "https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       title: "Mobile app landing design & Services",
-      image: "./image/portfolio-04.jpg",
+      github: "https://github.com",
+      demo: "https://github.com/LeelaSai333/crackmovies"
     },
     {
       id: 5,
-      category: "WEB DESIGN",
-      totalLike: "280",
+      image: "https://images.unsplash.com/photo-1594568284297-7c64464062b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8MTYlM0E5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       title: "Design for tecnology & services",
-      image: "./image/portfolio-05.jpg",
+      github: "https://github.com",
+      demo: "https://github.com/LeelaSai333/crackmovies"
     },
     {
       id: 6,
-      category: "WEB DESIGN",
-      totalLike: "690",
+      image: "https://images.unsplash.com/photo-1626593261859-4fe4865d8cb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8MTYlM0E5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       title: "App for tecnology & services",
-      image: "./image/portfolio-06.jpg",
+      github: "https://github.com",
+      demo: "https://github.com/LeelaSai333/crackmovies"
     },
   ]
   export default Portfolio_data

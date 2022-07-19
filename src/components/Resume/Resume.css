@@ -2,119 +2,121 @@
     font-size: 37px;
 }
 .Resume .content {
-max-width: 85%;
-margin: auto;
+    max-width: 85%;
+    margin: auto;
 }
 .Resume .box {
-padding: 40px;
+    padding: 40px;
 }
 .Resume hr {
-margin: 30px 0 30px 0;
-border: 1px solid #e3e9ed;
-background-color: #e3e9ed;
+    margin: 30px 0 30px 0;
+    border: 1px solid #e3e9ed;
+    background-color: #e3e9ed;
 }
 .Resume .rate .btn_shadow {
-color: #ff014f;
-padding: 15px 30px;
-font-weight: bold;
-transition: 0.5s;
+    color: #ff014f;
+    padding: 15px 30px;
+    font-weight: bold;
+    transition: 0.5s;
 }
 .Resume p {
-font-size: 18px;
-transition: 0.5s;
+    font-size: 18px;
+    transition: 0.5s;
 }
 .Resume .box {
-margin-bottom: 40px;
-position: relative;
+    margin-bottom: 40px;
+    position: relative;
 }
 .btn_shadow_1{
-  padding: 18px 25px;
-  border-radius: 6px;
-  transition: 0.3s all ease;
-  cursor: pointer;
-  color: #000;
-  transition: 0.5s;
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
 }
 .btn_shadow_1 {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 } 
 .Resume .btn_shadow_1:hover {
-transform: translate(0);
+    transform: translate(0);
 }
 .Resume .box:hover .btn_shadow_1 {
-background: #ff3a75;
-box-shadow: none;
-color: white;
+    background: #ff3a75;
+    box-shadow: none;
+    color: white;
 }
 .Resume .box:hover p {
-color: white;
+    color: white;
 }
 .Resume .content-section {
-position: relative;
+    position: relative;
 }
 .Resume .left {
-position: relative;
+    position: relative;
 }
 .Resume .left::after {
-content: "";
-position: absolute;
-top: 16%;
-left: 0;
-height: 118vh;
-width: 5px;
-background: #d9dee2;
-z-index: -2;
+    content: "";
+    position: absolute;
+    top: 16%;
+    left: 0;
+    height: 118vh;
+    width: 5px;
+    background: #d9dee2;
+    z-index: -2;
 }
 .Resume .box::after {
-content: "";
-position: absolute;
-top: 13%;
-left: -8%;
-height: 5px;
-width: 50px;
-background: #d9dee2;
+    content: "";
+    position: absolute;
+    top: 13%;
+    left: -8%;
+    height: 5px;
+    width: 50px;
+    background: #d9dee2;
 }
 .Resume .box::before {
-content: "";
-position: absolute;
-top: 11%;
-left: -10%;
-height: 10px;
-width: 10px;
-background: #fff;
-border: 5px solid #d9dee2;
-border-radius: 50%;
-z-index: 5;
-transition: 0.5s;
+    content: "";
+    position: absolute;
+    top: 11%;
+    left: -10%;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border: 5px solid #d9dee2;
+    border-radius: 50%;
+    z-index: 5;
+    transition: 0.5s;
 }
 .Resume .box:hover.box:before {
-background: #ff3a75;
+    background: #ff3a75;
 }
 .home-btn {
-padding: 18px 25px;
-margin-top: 10px;
-border-radius: 6px;
-transition: 0.3s all ease;
-cursor: pointer;
-height: fit-content;
-color: #ff014f;
+    padding: 18px 25px;
+    margin-top: 10px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    color: #ff014f;
 }
 .home-btn {
-background: linear-gradient(145deg, #e2e8ec, #ffffff);
-box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .home-btn:hover {
-background: #ff014f;
-color: white;
+    background: #ff014f;
+    color: white;
 }
 @media (max-width: 1024px) {
-.Resume .d_flex {
-    flex-direction: column;
+    .Resume .d_flex {
+        flex-direction: column;
+        align-items: center;
 }
-.Resume .left::after {
-    top: 14%;
-    height: 105vh;
+    .Resume .left::after {
+        top: 14%;
+        height: 250vh;
+        /* display: none; */
 }
 }
 @media (max-width: 600px) {
@@ -123,7 +125,7 @@ color: white;
     }
     .Resume .left::after {
         top: 14%;
-        height: 105vh;
+        height: 200vh;
     }
     .btn_shadow_1{
         margin-top: 11px;
