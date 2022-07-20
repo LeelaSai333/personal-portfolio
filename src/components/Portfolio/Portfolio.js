@@ -6,14 +6,14 @@ import "./Portfolio.css"
 const portfolio_data = [
   {
     id: 1,
-    image: "https://user-images.githubusercontent.com/77120718/180048222-35da48e0-18f1-40da-b59b-cd5be767c98b.jpeg",
+    image: "https://user-images.githubusercontent.com/77120718/180050654-df7f5e4a-9eb4-4e24-aa9d-a394446cbc11.jpeg",
     title: "Arabian style restaurant website",
     github: "https://github.com/LeelaSai333/Gericht",
     demo: "https://github.com/LeelaSai333/crackmovies"
   },
   {
     id: 2,
-    image: "https://user-images.githubusercontent.com/77120718/180047911-f34db9c2-3729-43bc-a023-03f5203d3f67.png",
+    image: "https://user-images.githubusercontent.com/77120718/180049850-9306c462-5b0b-4a2b-8378-bce49857ffd5.jpeg",
     title: "Crackmovies -  movie search directory",
     github: "https://github.com/LeelaSai333/crackmovies",
     demo: "https://crackmovies.herokuapp.com/"
