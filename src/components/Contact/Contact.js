@@ -61,24 +61,24 @@ const Contact = () => {
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname' placeholder='Enter your name'/>
+                    <input type='text' name='fullname' placeholder='Enter your name' required/>
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
-                    <input type='number' name='phone' placeholder='Enter your phone number'/>
+                    <input type='number' name='phone' placeholder='Enter your phone number'required/>
                   </div>
                 </div>
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email' placeholder='Enter your email'/>
+                  <input type='email' name='email' placeholder='Enter your email' required/>
                 </div>
                 <div className='input'>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject' placeholder='Enter your subject'/>
+                  <input type='text' name='subject' placeholder='Enter your subject' required/>
                 </div>
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message' placeholder='Enter your message'></textarea>
+                  <textarea cols='30' rows='10' name='message' placeholder='Enter your message' required></textarea>
                 </div>
                 <button className='btn_shadow'>
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>

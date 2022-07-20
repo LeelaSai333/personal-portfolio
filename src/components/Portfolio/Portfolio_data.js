@@ -2,7 +2,7 @@ const Portfolio_data = [
     {
       id: 1,
       image: "https://images.unsplash.com/photo-1566052356702-c255c7af3521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fDE2JTNBOXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      title: "The services provide for design ",
+      title: "Arabian style restaurant website",
       github: "https://github.com",
       demo: "https://github.com/LeelaSai333/crackmovies"
     },

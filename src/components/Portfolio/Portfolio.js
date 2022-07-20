@@ -1,22 +1,22 @@
 import React from "react"
 import "./Portfolio.css"
-// import Card from "./Card"
+
 
 
 const portfolio_data = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1566052356702-c255c7af3521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fDE2JTNBOXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-    title: "The services provide for design ",
-    github: "https://github.com",
+    image: "https://user-images.githubusercontent.com/77120718/180048222-35da48e0-18f1-40da-b59b-cd5be767c98b.jpeg",
+    title: "Arabian style restaurant website",
+    github: "https://github.com/LeelaSai333/Gericht",
     demo: "https://github.com/LeelaSai333/crackmovies"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-    title: "Mobile app landing design & maintain",
-    github: "https://github.com",
-    demo: "https://github.com/LeelaSai333/crackmovies"
+    image: "https://user-images.githubusercontent.com/77120718/180047911-f34db9c2-3729-43bc-a023-03f5203d3f67.png",
+    title: "Crackmovies -  movie search directory",
+    github: "https://github.com/LeelaSai333/crackmovies",
+    demo: "https://crackmovies.herokuapp.com/"
   },
   {
     id: 3,
