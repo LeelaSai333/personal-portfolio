@@ -9,14 +9,14 @@ const portfolio_data = [
     image: "https://user-images.githubusercontent.com/77120718/180050654-df7f5e4a-9eb4-4e24-aa9d-a394446cbc11.jpeg",
     title: "Gericht - Arabian restaurant website",
     github: "https://github.com/LeelaSai333/Gericht",
-    demo: "https://main--merry-panda-ac2365.netlify.app/"
+    demo: "https://gericht-habibo.netlify.app"
   },
   {
     id: 2,
     image: "https://user-images.githubusercontent.com/77120718/180049850-9306c462-5b0b-4a2b-8378-bce49857ffd5.jpeg",
     title: "Crackmovies -  movie search directory",
     github: "https://github.com/LeelaSai333/crackmovies",
-    demo: "https://crackmovies.herokuapp.com/"
+    demo: "https://crackmovies.netlify.app/"
   },
   {
     id: 3,
