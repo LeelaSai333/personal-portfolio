@@ -7,7 +7,7 @@ const portfolio_data = [
   {
     id: 1,
     image: "https://user-images.githubusercontent.com/77120718/180050654-df7f5e4a-9eb4-4e24-aa9d-a394446cbc11.jpeg",
-    title: "Arabian style restaurant website",
+    title: "Gericht - Arabian restaurant website",
     github: "https://github.com/LeelaSai333/Gericht",
     demo: "https://github.com/LeelaSai333/crackmovies"
   },
